@@ -1,3 +1,11 @@
 <h1>Welcome!</h1>
 
 <p>Hello from OpsWorks!</p>
+
+<h2>Peeps</h2>
+
+<ul>
+  <% @peeps.each do |peep| %>
+    <li><%= peep.name %></li>
+  <% end %>
+</ul>
